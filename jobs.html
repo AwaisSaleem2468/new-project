@@ -1,0 +1,329 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='max-image-preview:large' />
+    <meta name="keywords" content="HTML, Meta Tags, Metadata" />
+    <meta name="description" content="Landing page" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jobs</title>
+
+    <!---- External CSS Links ---->
+
+    <link rel='stylesheet' id='bootstrap-css' href='./assets/css/bootstrap.min.css' media='all' />
+    <link rel='stylesheet' id='animation-css' href='./assets/css/animate.min.css' media='all' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&family=Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel='stylesheet' id='fancybox' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css' media='all' />
+    <link rel='stylesheet' id='style-css' href='./assets/css/style.css' media='all' />
+    <link rel='stylesheet' id='responsive-css' href='./assets/css/responsive.css' media='all' />
+
+</head>
+
+<body>
+
+    <!---- Header ---->
+
+    <header>
+        <nav class="navbar bg-black">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.png" alt="Site Logo">
+            </a>
+            <button class="navbar-toggler">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </button>
+            <div class="custom-menu">
+                <ul id="menu-main-menu" class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./jobs.html">Jobs</a></li>
+                    <li><a href="./RealEstate.html">Real Estate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!---- Main Body ---->
+
+    <main class="site-wrapper jobspage">
+        <section id="innerpage-banner" class="innerpage-banner-wrapper" style="background-image: url(./assets/images/jobs-bg.jpg);">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Lorem <span>Ipsum</span> Dolor</h1>
+                            <p>Join a community of <span>41,982</span> remote workers living around the world</p>
+                            <a href="#jobs" class="default-btn"><span>View Jobs</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jobs" class="jobs-wrapper section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="filters">
+                            <div class="top-area">
+                                <h4>Search Job</h4>
+                                <div class="search-field">
+                                    <input type="search" name="search-job" class="input-style" placeholder="Search Job Here">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="javascript:void(0);" class="default-btn btn-sm toggle-filter"><span><i class="fal fa-filter me-3"></i>Filters</span></a>
+                            </div>
+                            <form method="get" action="javascript:void(0);" class="filter-form" style="display: none;">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="price" class="label-style">Price</label>
+                                            <input type="text" name="title" id="price" placeholder="Enter Price" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="location" class="label-style">Location</label>
+                                            <input type="text" name="location" id="location" placeholder="Enter Job Title" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="industry" class="label-style">Industry</label>
+                                            <input type="text" name="industry" id="industry" placeholder="Enter Job Industry" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="company" class="label-style">Company</label>
+                                            <input type="text" name="company" id="company" placeholder="Enter Job Company" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group text-right">
+                                            <button class="default-btn btn-sm"><span>Apply Filter</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tiles-wrapper jobs-tiles">
+                            <div class="custom-row">
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-1.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Software Engineer</p></li>
+                                            <li><span>Industry:</span><p>Information Technology</p></li>
+                                            <li><span>Comapny:</span><p>Google Inc</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-2.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Sales Excitive</p></li>
+                                            <li><span>Industry:</span><p>Automobil</p></li>
+                                            <li><span>Comapny:</span><p>Tasla, SpaceX</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-3.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Marketing Head</p></li>
+                                            <li><span>Industry:</span><p>Telecom</p></li>
+                                            <li><span>Comapny:</span><p>Apple Inc</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-4.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Software Engineer</p></li>
+                                            <li><span>Industry:</span><p>Information Technology</p></li>
+                                            <li><span>Comapny:</span><p>Microsoft Inc</p></li>
+                                            <li><span>Location:</span><p>California, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-5.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Fashion Dsiginer</p></li>
+                                            <li><span>Industry:</span><p>Fashion Showbiz</p></li>
+                                            <li><span>Comapny:</span><p>Google Inc</p></li>
+                                            <li><span>Location:</span><p>Paris, France</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                         
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-1.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Software Engineer</p></li>
+                                            <li><span>Industry:</span><p>Information Technology</p></li>
+                                            <li><span>Comapny:</span><p>Google Inc</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                       
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-2.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Sales Excitive</p></li>
+                                            <li><span>Industry:</span><p>Automobil</p></li>
+                                            <li><span>Comapny:</span><p>Tasla, SpaceX</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-3.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Marketing Head</p></li>
+                                            <li><span>Industry:</span><p>Telecom</p></li>
+                                            <li><span>Comapny:</span><p>Apple Inc</p></li>
+                                            <li><span>Location:</span><p>New York, USA</p></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-4.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Software Engineer</p></li>
+                                            <li><span>Industry:</span><p>Information Technology</p></li>
+                                            <li><span>Comapny:</span><p>Microsoft Inc</p></li>
+                                            <li><span>Location:</span><p>California, USA</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                          
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/logo-5.png">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Title:</span><p>Fashion Dsiginer</p></li>
+                                            <li><span>Industry:</span><p>Fashion Showbiz</p></li>
+                                            <li><span>Comapny:</span><p>Google Inc</p></li>
+                                            <li><span>Location:</span><p>Paris, France</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a></li>
+                                        </ul>
+                                        <div class="tile-actoin">
+                                            <a href="javascript:void(0);" class="default-btn btn-sm"><span>Apply Now</span></a>
+                                        </div>                                         
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!---- Footer Section ---->
+
+    <footer id="footer" class="Footer-content bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="copyright-caption">
+                        <p>© 2022 All rights are reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="static-pages-links text-center text-lg-right">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="faqs.html">FAQS</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-and-condition.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---- External Javascript Links ---->
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+</body>
+
+</html>

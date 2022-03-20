@@ -1,0 +1,1409 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='robots' content='max-image-preview:large' />
+    <meta name="keywords" content="HTML, Meta Tags, Metadata" />
+    <meta name="description" content="Landing page" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Real Estate</title>
+
+    <!---- External CSS Links ---->
+
+    <link rel='stylesheet' id='bootstrap-css' href='./assets/css/bootstrap.min.css' media='all' />
+    <link rel='stylesheet' id='animation-css' href='./assets/css/animate.min.css' media='all' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&family=Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel='stylesheet' id='fancybox' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css' media='all' />
+    <link rel='stylesheet' id='style-css' href='./assets/css/style.css' media='all' />
+    <link rel='stylesheet' id='responsive-css' href='./assets/css/responsive.css' media='all' />
+
+</head>
+
+<body>
+
+    <!---- Header ---->
+
+    <header>
+        <nav class="navbar bg-black">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.png" alt="Site Logo">
+            </a>
+            <button class="navbar-toggler">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+                <span class="bar3"></span>
+            </button>
+            <div class="custom-menu">
+                <ul id="menu-main-menu" class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./jobs.html">Jobs</a></li>
+                    <li><a href="./RealEstate.html">Real Estate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!---- Main Body ---->
+
+    <main class="site-wrapper jobspage">
+        <section id="innerpage-banner" class="innerpage-banner-wrapper" style="background-image: url(./assets/images/realestate-bg.jpg);">
+            <div class="banner-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Lorem <span>Ipsum</span> Dolor</h1>
+                            <p>Join a community of <span>41,982</span> remote workers living around the world</p>
+                            <a href="#realestate" class="default-btn"><span>View Locations</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="realestate" class="jobs-wrapper section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="filters">
+                            <div class="top-area">
+                                <h4>Search Location</h4>
+                                <div class="search-field">
+                                    <input type="search" name="search-location" class="input-style" placeholder="Search Location Here">
+                                    <i class="fal fa-search"></i>
+                                </div>
+                                <a href="javascript:void(0);" class="default-btn btn-sm toggle-filter"><span><i class="fal fa-filter me-3"></i>Filters</span></a>
+                            </div>
+                            <form method="get" action="javascript:void(0);" class="filter-form" style="display: none;">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="title" class="label-style">Job Title</label>
+                                            <input type="text" name="title" id="title" placeholder="Enter Job Title" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="location" class="label-style">Location</label>
+                                            <input type="text" name="location" id="location" placeholder="Enter Job Title" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="industry" class="label-style">Industry</label>
+                                            <input type="text" name="industry" id="industry" placeholder="Enter Job Industry" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <label for="company" class="label-style">Company</label>
+                                            <input type="text" name="company" id="company" placeholder="Enter Job Company" class="input-style" autocomplete="off"> 
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group text-right">
+                                            <button class="default-btn btn-sm"><span>Apply Filter</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tiles-wrapper realestate-tiles">
+                            <div class="custom-row">
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-2.jpeg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$200,000</p></li>
+                                            <li><span>Address:</span><p>47 H Canal View </p></li>
+                                            <li><span>State:</span><p>Punjab</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>100 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="custom-col">
+                                    <div class="tile-card">
+                                        <div class="img-as-bg">
+                                            <img src="./assets/images/house-1.jpg">
+                                        </div>
+                                        <ul class="tile-info">
+                                            <li><span>Price:</span><p>$14,000</p></li>
+                                            <li><span>Address:</span><p>114 building, 22B street, New York</p></li>
+                                            <li><span>State:</span><p>New York</p></li>
+                                            <li><span># of bedroom:</span><p>4</p></li>
+                                            <li><span># of bathroom:</span><p>3</p></li>
+                                            <li><span>Sq feets:</span><p>20 Sq Feets</p></li>
+                                            <li class="res-btn"><a href="javascript:void(0);" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Details</span></a></li>
+                                        </ul> 
+                                        <div class="tile-actoin">
+                                            <button type="button" class="default-btn btn-sm" data-toggle="modal" data-target="#details-modal-1"><span>View Deatils</span></button>                                     
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!---- Footer Section ---->
+
+    <footer id="footer" class="Footer-content bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="copyright-caption">
+                        <p>© 2022 All rights are reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="static-pages-links text-center text-lg-right">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="faqs.html">FAQS</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-and-condition.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!---- Real Estate Modal ---->
+    <div class="modal fade" id="details-modal-1" tabindex="-1" role="dialog" aria-labelledby="details-modal-1-Title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+        <div class="modal-header" style="background-image: url(./assets/images/realestate-bg.jpg);">
+            <h4 class="modal-title" id="exampleModalLongTitle">Modal title</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+           <div class="location-tabs">
+            <ul class="nav nav-tabs">
+                <li><a data-toggle="tab" class="active" href="#details">Property Details</a></li>
+                <li><a data-toggle="tab" href="#price_history">Price & Tax History</a></li>
+                <li><a data-toggle="tab" href="#nearby">Nearby Schools</a></li>
+                <li><a data-toggle="tab" href="#statistics">Area Statistics</a></li>
+                <li><a data-toggle="tab" href="#trends">Market Trends</a></li>
+                <li><a data-toggle="tab" href="#gallery">Pictures</a></li>
+              </ul>
+              
+              <div class="tab-content">
+                <div id="details" class="tab-pane fade show in active">
+                    <div class="content">
+                        <div class="property-detail-info description">
+                            <h5>description</h5>
+                            <p>Welcome to Sunrise Villa. A private oceanfront estate built on 1.49 acres with 30' elevations, offering luxury resort amenities designed for entertaining friends and loved ones. The main house has a gourmet kitchen, dine-in wine cellar, grand formal dining room, 1st floor owner's wing with an office, library, two dressing rooms, outdoor living and a luxurious bath. A spa wing complete with a lounge/bar, large indoor ''endless pool'', a gym, sauna, massage room, marble steam room and a guest suite. A theater room, billiard room, gathering rooms, 2 open air cabanas, resort pool, hot tub/spa and European cast bronze figures throughout the manicured grounds. There are 10 garages and a 2 bedroom guest house above the west garage. This property is a scene of never-ending beauty and majesty.</p>
+                        </div>
+                        <div class="property-detail-info basic">
+                            <ul>
+                                <li>
+                                    <label>MLS#</label>
+                                    <p>1153544</p>
+                                </li>
+                                <li>
+                                <label>Property Type</label>
+                                <p>Single Family, Other</p>
+                            </li>
+                            <li>
+                                <label>Bedrooms</label>
+                                <p>11</p>
+                            </li>
+                            <li>
+                                <label>County</label>
+                                <p>ST. JOHNS</p>
+                            </li>
+                            <li>
+                                <label>Bathrooms</label>
+                                <p>13 Full/2 Half</p>
+                            </li>
+                            <li>
+                                <label>Water</label>
+                                <p>Public Water Service</p>
+                            </li>
+                            <li>
+                                <label>Year Built</label>
+                                <p>2001</p>
+                            </li>
+                            <li>
+                                <label>Sewer</label>
+                                <p>Public Sewer</p>
+                            </li>
+                            <li>
+                                <label>Square Feet</label>
+                                <p>15,677 sq. ft</p>
+                            </li>
+                            <li>
+                                <label>Garage</label>
+                                <p>Yes  - 10 spaces</p>
+                            </li>
+                            <li>
+                                <label>Subdivision</label>
+                                <p>Ponte Vedra</p>
+                            </li>
+                            <li>
+                                <label>Available Utilities</label>
+                                <p>Cable TV, Generator</p>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="moretext">
+                            <div class="property-detail-info basic">
+                                <h5>School Information</h5>
+                                <ul>
+                                    <li>
+                                        <label>Elementary</label>
+                                        <p>OCEAN PALMS</p>
+                                    </li>
+                                    <li>
+                                        <label>Middle</label>
+                                        <p>ALICE B. LANDRUM</p>
+                                    </li>
+                                    <li>
+                                        <label>High</label>
+                                        <p>PONTE VEDRA</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="property-detail-info room-info full-width">
+                                <h5>Detailed Room Information</h5>
+                                <ul>
+                                    <li>
+                                        <label>Rooms</label>
+                                        <p>Family Room, Foyer, Loft, Library, Wine Cellar, Kitchen/Family Combo</p>
+                                    </li>
+                                    <li>
+                                        <label>Bedroom(s)</label>
+                                        <p>Split Plan</p>
+                                    </li>
+                                    <li>
+                                        <label>Living Room</label>
+                                        <p>Formal</p>
+                                    </li>
+                                    <li>
+                                        <label>Dining</label>
+                                        <p>Breakfast Area, Formal</p>
+                                    </li>
+                                    <li>
+                                        <label>Kitchen</label>
+                                        <p>Eat-In Kitchen, Breakfast Bar, Island, pantry walk-in</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="property-detail-info features full-width">
+                                <h5>Interior Features</h5>
+                                <ul>
+                                    <li>
+                                        <label>Appliances</label>
+                                        <p>Intercom System, Wine Refrigerator, Dishwasher, Disposal, Dryer, Microwave, Gas Range/Cooktop, Refrigerator, Self-Cleaning Oven, Washer</p>
+                                    </li>
+                                    <li>
+                                        <label>Flooring</label>
+                                        <p>Carpet Wall to Wall, Marble</p>
+                                    </li>
+                                    <li>
+                                        <label>Cooling</label>
+                                        <p>Central Air, Ceiling Fan(s)</p>
+                                    </li>
+                                    <li>
+                                        <label>Heating</label>
+                                        <p>Central.</p>
+                                    </li>
+                                    <li>
+                                        <label>Fireplaces</label>
+                                        <p>2 or More Fireplaces, Gas Burning.</p>
+                                    </li>
+                                    <li>
+                                        <label>Additional Interior Features</label>
+                                        <p>Smoke Alarm, Wet Bar, Built-in Shelves, Sound System Wiring, Unfurnished, Walk-in Closets, Wood Floors</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="property-detail-info features full-width">
+                                <h5>Exterior / Lot Features</h5>
+                                <ul>
+                                    <li>
+                                        <label>Parking</label>
+                                        <p>10 Garage Spaces. Attached Garage, Garage, Guest Parking.</p>
+                                    </li>
+                                    <li>
+                                        <label>Exterior</label>
+                                        <p>Stucco, Concrete</p>
+                                    </li>
+                                    <li>
+                                        <label>Patio</label>
+                                        <p>Balcony, Lanai, Covered, Front Porch</p>
+                                    </li>
+                                    <li>
+                                        <label>Sprinkler</label>
+                                        <p>Central.</p>
+                                    </li>
+                                    <li>
+                                        <label>Sprinkler</label>
+                                        <p>Sprinkler System</p>
+                                    </li>
+                                    <li>
+                                        <label>Pool</label>
+                                        <p>Pool</p>
+                                    </li>
+                                    <li>
+                                        <label>Pool Description</label>
+                                        <p>Gas Heated, In-ground</p>
+                                    </li>
+                                    <li>
+                                        <label>Spa</label>
+                                        <p>Spa/Hot Tub</p>
+                                    </li>
+                                    <li>
+                                        <label>Lot View</label>
+                                        <p>Ocean</p>
+                                    </li>
+                                    <li>
+                                        <label>Lot Dimensions</label>
+                                        <p>200 X 310, 1.1 to 2.5 Acres</p>
+                                    </li>
+                                    <li>
+                                        <label>Zoning</label>
+                                        <p>Residential,Single Family</p>
+                                    </li>
+                                    <li>
+                                        <label>Fence</label>
+                                        <p>Gated, Full</p>
+                                    </li>
+                                    <li>
+                                        <label>Additional Exterior/Lot Features</label>
+                                        <p>Navigable, Ocean, Outside Shower, Guesthouse, Landscape Lighting, Out Building, Outdoor Lights, Summer Kitchen. 2-Lane Road, Regular.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="property-detail-info features">
+                                <h5>Financial Considerations</h5>
+                                <ul>
+                                    <li>
+                                        <label>Tax/Property ID</label>
+                                        <p>0598300210</p>
+                                    </li>
+                                    <li>
+                                        <label>Comp Single Agent</label>
+                                        <p>2% *</p>
+                                    </li>
+                                    <li>
+                                        <label>Comp Non-Rep</label>
+                                        <p>1% *</p>
+                                    </li>
+                                    <li>
+                                        <label>Comp Trans Broker</label>
+                                        <p>2% *</p>
+                                    </li>
+                                </ul>
+                                <p class="note">* The listing broker’s offer of compensation is made only to participants of the MLS where the listing is filed.</p>
+                            </div>
+                        </div>
+                        <div class="more-less-action text-center">
+                            <a class="moreless-button" href="javascript:void(0);">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="price_history" class="tab-pane fade">
+                    <div class="content">
+                        <div class="price-tex-details price">
+                            <h5>Price Deatils</h5>
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Event</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Source</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>02/11/2022</td>
+                                        <td>Active</td>
+                                        <td>$16,960,000</td>
+                                        <td>MLS</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="price-tex-details tax">
+                            <h5>Tax History</h5>
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Year</th>
+                                        <th scope="col">Property Taxes</th>
+                                        <th scope="col">Change</th>
+                                        <th scope="col">Tax Assessment</th>
+                                        <th scope="col">Change</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>2021</td>
+                                        <td>$114,754</td>
+                                        <td>-2.06%</td>
+                                        <td>$8,542,266</td>
+                                        <td>-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2020</td>
+                                        <td>$117,166</td>
+                                        <td>-3.00%</td>
+                                        <td>$8,542,266</td>
+                                        <td>+0.56%</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2018</td>
+                                        <td>$120,784</td>
+                                        <td>-3.15%</td>
+                                        <td>$8,495,039</td>
+                                        <td>+0.82%</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2017</td>
+                                        <td>$124,717</td>
+                                        <td>-3.12%</td>
+                                        <td>$8,426,315</td>
+                                        <td>-0.90%</td>
+                                      </tr>
+                                      <tr>
+                                        <td>2016</td>
+                                        <td>$128,735</td>
+                                        <td>+0.55%</td>
+                                        <td>$8,502,561</td>
+                                        <td>+2.80%</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <p class="note">Data sourced from public records, where available.</p>
+                    </div>
+                </div>
+                <div id="nearby" class="tab-pane fade">
+                    <div class="content">
+                        <div class="nearby-school-details public-school">
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Public Schools</th>
+                                        <th scope="col">Grades</th>
+                                        <th scope="col">Distance</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Alice B. Landrum Middle School</td>
+                                        <td>06-08</td>
+                                        <td>2.45mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Ocean Palms Elementary School</td>
+                                        <td>PK-05</td>
+                                        <td>2.57mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Ponte Vedra High School</td>
+                                        <td>09-12</td>
+                                        <td>3.51mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Pvpv - Rawlings Elementary School</td>
+                                        <td>KG-05</td>
+                                        <td>4.93mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Allen D Nease Senior High School</td>
+                                        <td>09-12</td>
+                                        <td>7.58mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Palencia Elementary School</td>
+                                        <td>KG-05</td>
+                                        <td>9.33mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Durbin Creek Elementary School</td>
+                                        <td>KG-05</td>
+                                        <td>12.10mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Creekside High School</td>
+                                        <td>09-12</td>
+                                        <td>13.51mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Fruit Cove Middle School</td>
+                                        <td>06-08</td>
+                                        <td>13.57mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Timberlin Creek Elementary School</td>
+                                        <td>PK-05</td>
+                                        <td>14.53mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>St. Augustine High School</td>
+                                        <td>09-12</td>
+                                        <td>15.32mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Sebastian Middle School</td>
+                                        <td>06-08</td>
+                                        <td>15.81mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Pacetti Bay Middle School</td>
+                                        <td>06-08</td>
+                                        <td>16.50mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Bartram Trail High Schoo</td>
+                                        <td>09-12</td>
+                                        <td>17.05mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>St. Johns Virtual Instruction Program K-8</td>
+                                        <td>KG-09</td>
+                                        <td>17.39mi</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="nearby-school-details public-school">
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Private Schools</th>
+                                        <th scope="col">Grades</th>
+                                        <th scope="col">Distance</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Bridgehaven Academy</td>
+                                        <td>07-12</td>
+                                        <td>2.48mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Palmer Catholic Academy</td>
+                                        <td>PK-08</td>
+                                        <td>3.06mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Collage Day School, Llc</td>
+                                        <td>PK-05</td>
+                                        <td>3.33mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Collage Day School, Llc</td>
+                                        <td>PK-05</td>
+                                        <td>3.33mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Bolles - Ponte Vedra Beach Campus</td>
+                                        <td>KG-12</td>
+                                        <td>3.86mi</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Palencia Montessori Academy</td>
+                                        <td>PK-KG</td>
+                                        <td>9.40mi</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="statistics" class="tab-pane fade">
+                    <div class="content">
+                        <div class="statistics-details people">
+                            <h5>People</h5>
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">Zip</th>
+                                        <th scope="col">City</th>
+                                        <th scope="col">Country</th>
+                                        <th scope="col">National</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Population</td>
+                                        <td>30,841</td>
+                                        <td>30,841</td>
+                                        <td>273,821</td>
+                                        <td>331,426,769</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Population Density</td>
+                                        <td>927.5</td>
+                                        <td>927.5</td>
+                                        <td>455.9</td>
+                                        <td>93.8</td>
+                                      </tr>
+                                      <tr>
+                                        <td>People per Household</td>
+                                        <td>2.3</td>
+                                        <td>2.3</td>
+                                        <td>2.6</td>
+                                        <td>2.6</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Median Age</td>
+                                        <td>52.7</td>
+                                        <td>52.7</td>
+                                        <td>44</td>
+                                        <td>39</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Median Household Income</td>
+                                        <td>$107,807</td>
+                                        <td>$107,807</td>
+                                        <td>$80,920</td>
+                                        <td>$61,963</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Average Income</td>
+                                        <td>$68,117</td>
+                                        <td>$68,117</td>
+                                        <td>$42,636</td>
+                                        <td>$33,235</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Cost of Living Index</td>
+                                        <td>93</td>
+                                        <td>93</td>
+                                        <td>96</td>
+                                        <td>100</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="statistics-details environment">
+                            <h5>Environment</h5>
+                            <div class="table-holder table-responsive-lg">
+                                <table class="table table-striped table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">Zip</th>
+                                        <th scope="col">City</th>
+                                        <th scope="col">Country</th>
+                                        <th scope="col">National</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>January Avg. Low Temp</td>
+                                        <td>45.6</td>
+                                        <td>45.6</td>
+                                        <td>45.6</td>
+                                        <td>22.6</td>
+                                      </tr>
+                                      <tr>
+                                        <td>July Avg. High Temp</td>
+                                        <td>89.3</td>
+                                        <td>89.3</td>
+                                        <td>88.3</td>
+                                        <td>86.3</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Annual Precipitation</td>
+                                        <td>50.92</td>
+                                        <td>50.92</td>
+                                        <td>47.42</td>
+                                        <td>38</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <p class="note">Data Provided by ATTOM Data Solutions</p>
+                    </div>
+                </div>
+                <div id="trends" class="tab-pane fade">
+                    <div class="content">
+                        <div class="trends-details active">
+                            <h5>Active Market Trends</h5>
+                            <ul>
+                                <li>
+                                    <p>Median list price</p>
+                                    <strong>$1,600,000</strong>
+                                    <img src="./assets/images/up-arrow.svg">
+                                </li>
+                                <li>
+                                    <p>Days On Market</p>
+                                    <strong>68</strong>
+                                    <img src="./assets/images/down-arrow.svg">
+                                </li>
+                                <li>
+                                    <p>Properties For Sale</p>
+                                    <strong>107</strong>
+                                    <img src="./assets/images/up-arrow.svg">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="trends-details active">
+                            <h5>Sold Market Trends</h5>
+                            <ul>
+                                <li>
+                                    <p>Median sold price</p>
+                                    <strong>$720,000</strong>
+                                    <img src="./assets/images/up-arrow.svg">
+                                </li>
+                                <li>
+                                    <p>Sales-List Pric</p>
+                                    <strong>99.2%</strong>
+                                    <img src="./assets/images/up-arrow.svg">
+                                </li>
+                                <li>
+                                    <p>Properties sold</p>
+                                    <strong>164</strong>
+                                    <img src="./assets/images/down-arrow.svg">
+                                </li>
+                                <li>
+                                    <p>Median Sq. Ft. Price</p>
+                                    <strong>$317</strong>
+                                    <img src="./assets/images/up-arrow.svg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="gallery" class="tab-pane fade">
+                    <div class="content">
+                        <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto">
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-1.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit"
+                            >
+                              <img src="./assets/images/house-1.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-2.jpeg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit More Content"
+                            >
+                              <img src="./assets/images/house-2.jpeg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-3.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Hello 🖐 Some Dummy content"
+                            >
+                              <img src="./assets/images/house-3.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-4.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit"
+                            >
+                              <img src="./assets/images/house-4.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-5.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit More Content"
+                            >
+                              <img src="./assets/images/house-5.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-6.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Hello 🖐 Some Dummy content"
+                            >
+                              <img src="./assets/images/house-6.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-7.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit"
+                            >
+                              <img src="./assets/images/house-7.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-8.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit More Content"
+                            >
+                              <img src="./assets/images/house-8.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-9.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Hello 🖐 Some Dummy content"
+                            >
+                              <img src="./assets/images/house-9.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-10.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Lorem Ipsum dolor sit amit"
+                            >
+                              <img src="./assets/images/house-10.jpg" />
+                            </div>
+                            <div
+                              class="carousel__slide"
+                              data-src="./assets/images/house-11.jpg"
+                              data-fancybox="gallery"
+                              data-caption="Hello 🖐 Some Dummy content"
+                            >
+                              <img src="./assets/images/house-11.jpg" />
+                            </div>
+                          </div>
+                          
+                          <div id="thumbCarousel" class="carousel max-w-xl mx-auto">
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-1.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets//images/house-2.jpeg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-3.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-4.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-5.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-6.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="./assets/images/house-7.jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img class="panzoom__content" src="./assets/images/house-8.jpg" />
+                              </div>
+                              <div class="carousel__slide">
+                                <img class="panzoom__content" src="./assets/images/house-9.jpg" />
+                              </div>
+                              <div class="carousel__slide">
+                                <img class="panzoom__content" src="./assets/images/house-10.jpg" />
+                              </div>
+                              <div class="carousel__slide">
+                                <img class="panzoom__content" src="./assets/images/house-11.jpg" />
+                              </div>
+                          </div>
+                    </div>
+                </div>
+              </div>
+           </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="default-btn btn-sm" data-dismiss="modal"><span>Close</span></button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!---- External Javascript Links ---->
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+    <script>
+        // FacnyBox Image gallery
+
+  const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
+    Dots: false,
+  });
+  
+  // Thumbnails
+  const thumbCarousel = new Carousel(document.querySelector("#thumbCarousel"), {
+    Sync: {
+      target: mainCarousel,
+      friction: 0,
+    },
+    Dots: false,
+    Navigation: false,
+    center: true,
+    slidesPerPage: 1,
+    infinite: false,
+  });
+  
+  // Customize Fancybox
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    Carousel: {
+      on: {
+        change: (that) => {
+          mainCarousel.slideTo(mainCarousel.findPageForSlide(that.page), {
+            friction: 0,
+          });
+        },
+      },
+    },
+  });
+    </script>
+
+</body>
+
+</html>

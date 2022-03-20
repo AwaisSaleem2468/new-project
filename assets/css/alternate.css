@@ -1,0 +1,184 @@
+/*---- Typography ----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+@font-face {
+    font-family: 'd-dinregular';
+    src: url('../webfonts/d-din-webfont.eot');
+    src: url('../webfonts/d-din-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/d-din-webfont.woff2') format('woff2'),
+    url('../webfonts/d-din-webfont.woff') format('woff'),
+    url('../webfonts/d-din-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'd-dindin-bold';
+    src: url('../webfonts/d-din-bold-webfont.eot');
+    src: url('../webfonts/d-din-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/d-din-bold-webfont.woff2') format('woff2'),
+    url('../webfonts/d-din-bold-webfont.woff') format('woff'),
+    url('../webfonts/d-din-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+:root {
+    --barlow:'Barlow', sans-serif;
+    --roboto:'Roboto', sans-serif;
+    
+    --black:#171717;
+    --darkgray:#212121;
+    --darkgreen:#444444;
+    --red:#DA0037;
+    --lightgray:#EDEDED;
+    --white:#ffffff;
+    --default-font-size: 16px;
+    --p-0: 0;
+    --m-0: 0;
+}
+
+/*---- Global styling ----*/
+* , body {
+    box-sizing: border-box;
+}
+body {
+    padding: var(--p-0);
+    margin: var(--m-0);
+    background: var(--black);
+    font-size: var(--default-font-size);
+    color: var(--lightgray);
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: var(--barlow);
+}
+html,body{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:var(--m-0);
+    color: var(--lightgray);
+    font-family: var(--roboto);
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+p{
+    font-size:var(--base-font-size);
+    margin: 10px 0;
+    color: var(--default-text-color);
+}
+a {
+    text-decoration: none;
+    text-transform: inherit;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;;
+    -o-transition: all 0.3s ease 0s;;
+    display: inline-block;
+    color:var(--default-text-color);
+    font-size: var(--base-font-size);
+    font-family: var(--heading-font-family);
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color:var(--light-blue);
+    outline: none !important;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+.section-padding {
+    padding: 75px 0;
+}
+.section-margin{
+    margin: 75px 0 ;
+}
+.has-no-padding{
+    padding:var(--no-padding);
+}
+.has-no-margin{
+    margin: var(--no-margin);
+}
+.site-wrapper {
+    min-height:100%;
+    position: relative;
+}
+strong{
+    font-weight: 700;
+}
+.background-covered{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/*---- Coloring ----*/
+
+.bg-navy-blue{
+    background:var(--navy-blue);
+}
+.bg-light-gray {
+    background: var(--light-gray);
+}
+.text-light-blue{
+    color: var(--text-light-blue);
+}
+.bg-white{
+    color:var(--white)
+}
+.text-navy-blue{
+    color: var(--navy-blue);
+}
+
+.bg-red{
+    background:var(--red);
+}
+.bg-purple{
+    background:var(--purple);
+}
+.bg-seegreen{
+    background:var(--seegreen);
+}
+.text-red{
+    color:var(--red);
+}
+.text-purple{
+    color:var(--purple);
+}
+.text-seegreen{
+    color:var(--seegreen);
+}

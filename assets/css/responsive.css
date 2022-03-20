@@ -1,0 +1,226 @@
+/*---- responsive code  for site goes  here ---- */
+
+@media only screen and (max-width: 1199px){
+    .top-area {
+        margin-bottom: 0;
+    }
+    .custom-col {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .tile-info li {
+        margin-bottom: 15px;
+    }
+    .tile-info {
+        padding: 15px;
+    }
+    .tile-actoin {
+        display: none;
+    }
+    .res-btn,
+    .realestate-tiles .tile-card .res-btn{
+        display: block;
+    }
+    .img-as-bg img {
+        filter: blur(0);
+    }
+    .img-as-bg:before {
+        BACKGROUND: rgba(0,0,0,0.8);
+    }
+    .realestate-tiles .img-as-bg img {
+        filter: blur(0);
+    }
+    .realestate-tiles .img-as-bg:before {
+    BACKGROUND: rgba(0,0,0,0.5);
+    }
+    .realestate-tiles .tile-card {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    :root {
+        --fs-18: 16px;
+        --smooth: all 0.3s ease 0s;
+        --fs-big: 52px;
+        --fs-medium: 24px;
+        --fs-small: 20px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    .section-padding {
+        padding: 75px 0;
+    }
+    .section-margin{
+        margin: 75px 0 ;
+    }
+    .default-btn {
+        padding: 8px 25px;
+        max-width: 100%;
+        width: auto;
+        display: inline-block;
+    }
+    header .navbar .navbar-brand {
+        max-width: 90px;
+    }
+    header .navbar .navbar-toggler span {
+        width: 30px;
+        height: 2px;
+        margin: 7px 0;
+    }
+    header .navbar .navbar-toggler {
+        top: 30px;
+    }
+    header .navbar .custom-menu ul li a {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    header .navbar .navbar-toggler.open-menu .bar1 {
+    -webkit-transform: rotate(-45deg) translate(0px, 3px);
+    transform: rotate(-45deg) translate(0px, 3px);
+}
+#banner .banner-content p {
+    max-width: 480px;
+    margin: 7px 0 20px;
+}
+#category .category-card {
+    height: 280px;
+}
+#category .category-card .text-wrapper {
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 35px 15px 50px;
+}
+.category-card .text-wrapper p {
+    opacity: 1;
+    }
+    .custom-col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .timeline-item {
+        align-self: baseline !important;
+        width: 100%;
+        padding: 0 15px 150px 30px;
+      }
+      .timeline:before {
+        left: 15px;
+      }
+      .timeline-item:before {
+        display: none;
+      }
+      .timeline-item:last-child {
+        padding-bottom: 50px;
+      }
+
+
+      .modal {
+        padding: 15px !important;
+    }
+    .modal-body {
+        padding: 15px;
+    }
+    .nav-tabs {
+        padding: 20px 0 30px;
+    }
+    .nav-tabs li {
+        flex: 0 0 160px;
+    }
+    
+.nav-tabs li a {
+    font-size: 16px;
+    padding: 8px 12px;
+}
+}
+@media only screen and (max-width: 767px) {
+    :root {
+        --fs-big: 42px;
+        --fs-medium: 20px;
+        --fs-small: 18px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    #banner .banner-content h1 {
+        letter-spacing: 0;
+    }
+    #innerpage-banner .banner-content h1 {
+        letter-spacing: 0;
+    }
+    #category .col-md-6.col-12{
+    margin-bottom: 30px;
+    }
+    .custom-row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .custom-col {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .filters {
+        position: static;
+    }
+    .top-area .search-field {
+        max-width: 100%;
+        flex: 0 0 100%;
+        order: 3;
+        margin: 15px 0;
+    }
+    .top-area {
+        flex-wrap: wrap;
+    }
+    .property-detail-info ul li {
+        flex: 0 0 100%;
+        width: 100%;
+        align-items: flex-start;
+    }
+    
+}
+@media only screen and (max-width: 576px){
+    .trends-details ul {
+        overflow: auto;
+        flex-wrap: nowrap;
+    }
+    .trends-details ul li {
+        width: 150px;
+        flex: 0 0 150px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+@media only screen and (max-width: 360px){
+
+}
